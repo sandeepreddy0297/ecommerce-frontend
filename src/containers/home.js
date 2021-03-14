@@ -5,7 +5,7 @@ import {bindActionCreators} from "redux"
 import ProductListItem from "./productListItem"
 class Home extends Component {
     componentDidMount() {
-        console.log(" products component did mount!!", this.props.getAllProducts());
+        console.log(" products component did mount!!");
         this.props.getAllProducts();
     }
     renderProductList= () =>{
